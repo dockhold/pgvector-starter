@@ -44,7 +44,8 @@ curl "$APP/api/search?q=where%20did%20the%20cat%20sit"
   [making an app private](https://dockhold.eu/docs/recipes/deploy-a-full-stack-app#lock-the-api-down-to-your-app)
   to require a token.
 
-No build step — Dockhold runs it directly, no Dockerfile.
+Dockhold builds the included [`Dockerfile`](Dockerfile). There's nothing to
+change in it, and it deploys on any plan.
 
 ## Run it locally
 
