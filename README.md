@@ -5,7 +5,7 @@ The managed database ships with **pgvector** enabled, so you store embeddings an
 query nearest neighbors with no extra setup. This starter works out of the box
 with a tiny built-in embedding, and shows where to drop in a real model.
 
-[![Deploy to Dockhold](https://img.shields.io/badge/Deploy%20to-Dockhold-2563eb?style=for-the-badge)](https://app.dockhold.eu/new?repo=https://github.com/dockhold/pgvector-starter)
+[![Deploy on Dockhold](https://dockhold.eu/button.svg)](https://app.dockhold.eu/new?repo=https://github.com/dockhold/pgvector-starter&name=pgvector-starter&ref=button)
 
 ## Deploy it
 
@@ -13,6 +13,15 @@ with a tiny built-in embedding, and shows where to drop in a real model.
 2. [Deploy it](https://app.dockhold.eu/new?repo=https://github.com/dockhold/pgvector-starter),
    and **check "Add a managed database"** so `DATABASE_URL` is injected.
 3. It goes live at `https://<your-app>.dockhold.app`.
+
+## Deploy with your AI tool
+
+Install the Dockhold plugin or MCP server in your AI coding tool
+([setup guide](https://dockhold.eu/docs/recipes/deploy-from-your-ai-tool)), then
+say "put this online" in a folder with this template. The tool signs you in
+through the browser once and reports the URL when the app is live.
+
+Or from a terminal: `npx dockhold login`, then `npx dockhold deploy --db` (the `--db` adds the managed database this template needs).
 
 ## Try it
 
